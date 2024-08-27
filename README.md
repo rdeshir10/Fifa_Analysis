@@ -2,6 +2,11 @@
 This repository contains an in-depth analysis of football player data, focusing on player attributes, performance metrics, and their impact on key factors such as overall rating, potential, wage, and value. The goal is to explore the relationships between these variables and to lay the foundation for building predictive models using machine learning.
 
 The analysis is carried out in a Jupyter Notebook using Python, leveraging libraries such as Pandas, Seaborn, and Matplotlib.
+Please use the following code should you need to install any of the libraries: 
+1) pip install pandas 
+2) pip install numpy 
+3) pip install seaborn 
+4) pip install matplotlib
 
 ## Key Features:
 ### 1) Data Cleaning
