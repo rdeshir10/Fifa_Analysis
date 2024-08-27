@@ -36,12 +36,6 @@ Goalkeepers (df_gk): Goalkeepers were filtered into a separate DataFrame (df_gk)
 ### Final Dataset for Model Preparation:
 After filtering and cleaning, several role-specific DataFrames were prepared for subsequent model building. Each of these DataFrames focuses on attributes that are most relevant to the player's role, enabling more precise and relevant predictions.
 
-### Ethical Considerations
-Throughout the data cleaning process, special attention was paid to ensuring that no sensitive personal information was exposed.
-The dataset was anonymized, and only attributes directly related to player performance and physical characteristics were used for analysis.
-No biased or discriminatory features were included in the model, and all steps were taken to maintain data integrity while respecting the privacy of individuals.
-Exploratory Data Analysis (EDA)
-
 ### Visualizations:
 Created using Seaborn and Matplotlib to uncover patterns and relationships between different variables.
 These include:
