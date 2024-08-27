@@ -65,6 +65,34 @@ SQL databases are beneficial for this project because they allow for easy queryi
 The relational structure of the data makes it easier to join tables, filter data, and perform aggregate operations, which are essential in preparing data for machine learning models.
 Additionally, SQL’s standard querying language makes it highly flexible and scalable for handling large datasets, such as those typically found in sports analytics.
 
+### Average Rating by Position:
+
+Calculated the average overall rating for players in each position and sorted the results in descending order of the average rating.
+Maximum Rating at Each Position:
+
+Retrieved the maximum overall rating for each position and sorted the results in descending order of the maximum rating.
+Top 10 Performers by Dribbling Skill:
+
+Selected the top 10 players based on their dribbling skill from the attackers_data table. This involved an inner join with the player_info table to retrieve player names and positions.
+Average Wage by Position:
+
+Calculated the average wage (in euros) for players at each position and sorted the results in descending order of the average wage.
+Average Value by Position:
+
+Calculated the average market value (in euros) for players at each position and sorted the results in descending order of the average value.
+Average Wage by Overall Rating:
+
+Calculated the average wage (in euros) for players grouped by their overall rating and sorted the results in descending order of the average wage.
+Average Value by Overall Rating:
+
+Calculated the average market value (in euros) for players grouped by their overall rating and sorted the results in descending order of the average value.
+Maximum Wage at Each Position:
+
+Retrieved the maximum wage (in euros) for players at each position. The query grouped by player name and position and sorted the results in descending order of the maximum wage.
+Maximum Value at Each Position:
+
+Retrieved the maximum market value (in euros) for players at each position. The query grouped by player name and position and sorted the results in descending order of the maximum value.
+
 ### Ethical Considerations
 In this project, we have prioritized data ethics and privacy.
 The dataset has been sourced from Kaggle and contains anonymized data about football players.
