@@ -65,33 +65,27 @@ SQL databases are beneficial for this project because they allow for easy queryi
 The relational structure of the data makes it easier to join tables, filter data, and perform aggregate operations, which are essential in preparing data for machine learning models.
 Additionally, SQL’s standard querying language makes it highly flexible and scalable for handling large datasets, such as those typically found in sports analytics.
 
-### Average Rating by Position:
+### Average Calculations:
+Wage, Value, and Rating by Position: Calculated the average wage, market value, and overall rating for players grouped by their positions. This provided insights into which positions tend to command the highest wages and market values.
 
-Calculated the average overall rating for players in each position and sorted the results in descending order of the average rating.
-Maximum Rating at Each Position:
+### Impact of Age on Wage and Value:
+Analyzed how player age impacts their average wage and market value, helping to identify trends in how younger or older players are compensated in the football market.
+Top Players by Improvement Potential:
 
-Retrieved the maximum overall rating for each position and sorted the results in descending order of the maximum rating.
-Top 10 Performers by Dribbling Skill:
+### High Improvement Potential: 
+Identified players with the greatest potential for improvement by calculating the difference between their potential rating and current overall rating.
+Young Players with High Potential: Focused on players under 25 years old with significant improvement potential, providing a shortlist of up-and-coming talent.
+Most Overpriced Players:
 
-Selected the top 10 players based on their dribbling skill from the attackers_data table. This involved an inner join with the player_info table to retrieve player names and positions.
-Average Wage by Position:
+### Attacking and Defensive Players: 
+Identified the most overpriced players by comparing their skill levels (e.g., scoring or defensive abilities) to their market value, highlighting players who may be underperforming relative to their cost.
+Most Value for Money Players:
 
-Calculated the average wage (in euros) for players at each position and sorted the results in descending order of the average wage.
-Average Value by Position:
+### Attacking and Defensive Players: 
+Highlighted players who provide the best value for money by comparing their skill levels to their market value, identifying potential bargains in the football market.
 
-Calculated the average market value (in euros) for players at each position and sorted the results in descending order of the average value.
-Average Wage by Overall Rating:
-
-Calculated the average wage (in euros) for players grouped by their overall rating and sorted the results in descending order of the average wage.
-Average Value by Overall Rating:
-
-Calculated the average market value (in euros) for players grouped by their overall rating and sorted the results in descending order of the average value.
-Maximum Wage at Each Position:
-
-Retrieved the maximum wage (in euros) for players at each position. The query grouped by player name and position and sorted the results in descending order of the maximum wage.
-Maximum Value at Each Position:
-
-Retrieved the maximum market value (in euros) for players at each position. The query grouped by player name and position and sorted the results in descending order of the maximum value.
+### Dream XI Formation (4-3-3):
+Created a Dream XI team using a 4-3-3 formation by selecting the top-performing players in each position (e.g., Goalkeeper, Defenders, Midfielders, and Attackers) based on their overall rating. This resulted in an optimized team lineup representing the best players for each role.
 
 ### Ethical Considerations
 In this project, we have prioritized data ethics and privacy.
